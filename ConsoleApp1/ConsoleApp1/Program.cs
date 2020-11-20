@@ -12,7 +12,9 @@ namespace ConsoleApp1
         {
             string ***REMOVED*** = "***REMOVED***";
             string ***REMOVED*** = Deliver***REMOVED***();
+            string ***REMOVED*** = System.Configuration.ConfigurationManager.AppSettings["***REMOVED***"];
 
+            Console.WriteLine($"***REMOVED***: '{***REMOVED***}'");
             Console.WriteLine($"***REMOVED***: '{***REMOVED***}'");
             Console.WriteLine($"***REMOVED***: '{***REMOVED***}'");
 
