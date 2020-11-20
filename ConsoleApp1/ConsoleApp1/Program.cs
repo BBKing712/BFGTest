@@ -10,21 +10,21 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string ***REMOVED*** = "***REMOVED***";
-            string ***REMOVED*** = Deliver***REMOVED***();
-            string ***REMOVED*** = System.Configuration.ConfigurationManager.AppSettings["***REMOVED***"];
+            string Kennwort1 = "Kennwort1";
+            string Kennwort2 = DeliverKennwort2();
+            string Kennwort3 = System.Configuration.ConfigurationManager.AppSettings["Kennwort3"];
 
-            Console.WriteLine($"***REMOVED***: '{***REMOVED***}'");
-            Console.WriteLine($"***REMOVED***: '{***REMOVED***}'");
-            Console.WriteLine($"***REMOVED***: '{***REMOVED***}'");
+            Console.WriteLine($"Kennwort1: '{Kennwort1}'");
+            Console.WriteLine($"Kennwort2: '{Kennwort2}'");
+            Console.WriteLine($"Kennwort3: '{Kennwort3}'");
 
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
         }
-        private static string Deliver***REMOVED***()
+        private static string DeliverKennwort2()
         {
-            return "***REMOVED***";
+            return "Kennwort2";
         }
     }
 }
